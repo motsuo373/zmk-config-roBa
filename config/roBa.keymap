@@ -26,11 +26,6 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
@@ -39,6 +34,21 @@
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
+        };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <32 33>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <8 9>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
         };
     };
 
@@ -78,19 +88,19 @@
 
         FUNCTION {
             bindings = <
-&kp F1   &kp F2  &kp F3  &kp F4  &kp F5                      &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp F11  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp F12
-&trans   &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp F1   &kp F2  &kp F3  &kp F4                &kp F5                              &kp F6                &kp F7          &kp F8                &kp F9  &kp F10
+&kp F11  &trans  &trans  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &trans      &trans  &kp LS(LG(NUMBER_6))  &kp LS(LG(N7))  &kp LS(LG(NUMBER_8))  &trans  &kp F12
+&trans   &trans  &trans  &trans                &trans          &trans      &trans  &trans                &trans          &trans                &trans  &trans
+&trans   &trans  &trans  &trans                &trans          &trans      &trans  &trans                                                              &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                              &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0
-&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT   &trans      &kp UNDERSCORE  &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans           &trans        &trans        &trans        &trans        &trans      &trans          &trans        &kp INT_YEN    &kp PIPE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&trans           &trans        &trans        &trans        &trans        &trans      &trans          &trans                                                           &kp BACKSLASH
+&kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                           &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0
+&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT   &trans                &kp EQUAL          &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans           &trans        &trans        &trans        &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans        &trans         &trans        &trans                &trans
+&trans           &trans        &trans        &trans        &trans        &trans                &trans             &trans                                                           &kp BACKSLASH
             >;
         };
 
