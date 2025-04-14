@@ -80,6 +80,8 @@
                 <&none>,
                 <&kp PAGE_UP>,
                 <&kp PAGE_DOWN>;
+
+            tick = <10>;
             wait-ms = <5>;
             tap-ms = <5>;
         };
