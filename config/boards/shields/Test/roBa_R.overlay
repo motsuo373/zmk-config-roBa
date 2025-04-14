@@ -76,11 +76,10 @@
         volume {
             layers = <2>;
             bindings =
-                    <&none>,
-                    <&none>,
-                    <&kp PG_UP>,
-                    <&kp PAGE_DOWN>;
-
+                <&none>,
+                <&none>,
+                <&kp PAGE_UP>,
+                <&kp PAGE_DOWN>;
             wait-ms = <5>;
             tap-ms = <5>;
         };
