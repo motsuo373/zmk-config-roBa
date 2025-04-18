@@ -41,11 +41,6 @@
             key-positions = <32 33>;
         };
 
-        backslash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <8 9>;
-        };
-
         escape {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
@@ -78,7 +73,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E             &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D             &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp A             &kp S         &kp D             &kp F                        &kp G        &kp LS(LG(C))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                        &kp B        &lt_to_layer_0 6 COLON             &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LEFT_WIN      &kp LEFT_ALT  &kp LEFT_CONTROL  &lt_to_layer_0 4 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
@@ -98,7 +93,7 @@
         NUM {
             bindings = <
 &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                           &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0
-&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT   &trans                &kp EQUAL          &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT   &kp LS(LC(S))         &kp EQUAL          &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &trans           &trans        &trans        &trans        &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans        &trans         &trans        &trans                &kp GRAVE
 &trans           &trans        &trans        &trans        &trans        &trans                &trans             &trans                                                           &kp BACKSLASH
             >;
